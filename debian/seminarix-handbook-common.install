@@ -1,0 +1,12 @@
+*.html							usr/share/seminarix-handbook-de/
+files/*							usr/share/seminarix-handbook-de/files/
+#lib/css-js						usr/share/sidux-manual/lib
+#lib/favicon						usr/share/sidux-manual/lib
+#lib/logos						usr/share/sidux-manual/lib
+menu/seminarix-handbook.desktop				usr/share/applications/sidux
+menu/icons/hicolor/96x96/seminarix-handbook.png 	usr/share/icons/hicolor/96x96/apps
+menu/icons/hicolor/64x64/seminarix-handbook.png 	usr/share/icons/hicolor/64x64/apps
+menu/icons/hicolor/48x48/seminarix-handbook.png 	usr/share/icons/hicolor/48x48/apps
+menu/icons/hicolor/32x32/seminarix-handbook.png 	usr/share/icons/hicolor/32x32/apps
+menu/icons/hicolor/22x22/seminarix-handbook.png 	usr/share/icons/hicolor/22x22/apps
+menu/icons/hicolor/16x16/seminarix-handbook.png 	usr/share/icons/hicolor/16x16/apps

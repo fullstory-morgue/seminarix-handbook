@@ -10,6 +10,18 @@ Vcs-Browser: http://svn.berlios.de/wsvn/fullstory/seminarix-handbook/trunk/
 
 Package: seminarix-handbook
 Architecture: any
-Depends: ${shlibs:Depends}, ${misc:Depends}
+Depends: seminarix-handbook-common, seminarix-handbook-de
 Description: sidux seminarix handbook for teachers
  Make things easier for teachers
+
+Package: seminarix-handbook-common
+Architecture: all
+Recommends: www-browser, sidux-xdg
+Description: sidux seminarix handbook - common files
+  Make things easier for teachers - common files
+
+Package: seminarix-handbook-de
+Architecture: all
+Depends: seminarix-handbook-common
+Description: the official German seminarix-handbook
+ Make things easier for teachers - german files
