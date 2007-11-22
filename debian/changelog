@@ -2,5 +2,6 @@ seminarix-handbook (0.1.1-1) unstable; urgency=low
 
   * Initial release
   * desktop menu added
+  * debian/control fixed
 
- -- Horst Tritremmel <hjt@sidux.com>  Thu, 22 Nov 2007 10:37:31 +0100
+ -- Horst Tritremmel <hjt@sidux.com>  Thu, 22 Nov 2007 10:38:32 +0100
