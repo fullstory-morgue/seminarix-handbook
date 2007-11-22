@@ -1,9 +1,17 @@
-seminarix-handbook (0.1.1-1) unstable; urgency=low
+seminarix-handbook (0.1.0) unstable; urgency=low
 
+  [ Horst Tritremmel ]
   * Initial release
   * desktop menu added
   * debian/control fixed
   * second fix debian/control
   * technik.html chemie.html sprachen.html updated
 
- -- Horst Tritremmel <hjt@sidux.com>  Thu, 22 Nov 2007 12:19:59 +0100
+  [ Stefan Lippers-Hollmann ]
+  * fix debian/copyright as far as possible - NOT O.K. YET!
+  * s/Sidux/sidux/g.
+  * remove private dh_fixperms function, the source needs to be fixed instead.
+  * fix up file attributes in svn.
+  * fix up Recommends and drop the browser to Suggests.
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Thu, 22 Nov 2007 23:31:46 +0100

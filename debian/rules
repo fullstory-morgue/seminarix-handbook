@@ -2,10 +2,6 @@
   
 include /usr/share/cdbs/1/rules/debhelper.mk
 
-common-binary-fixup-indep::
-	# fix permissions
-	find debian/*/usr/share/seminarix-handbook -type f -exec chmod 0644 {} \;
-
 install/seminarix-handbook-common::
 	mkdir -p debian/seminarix-handbook-common/usr/share/pixmaps
 	convert menu/icons/hicolor/32x32/seminarix-handbook.png \
