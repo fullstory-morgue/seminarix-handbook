@@ -16,4 +16,7 @@ seminarix-handbook (0.1.0) UNRELEASED; urgency=low
   * fix up file attributes in svn.
   * fix up Recommends and drop the browser to Suggests.
 
- -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Thu, 22 Nov 2007 23:31:46 +0100
+  [ Horst Tritremmel ]
+  * copyright fixed
+
+ -- Horst Tritremmel <hjt@sidux.com>  Fri, 23 Nov 2007 22:41:18 +0100
