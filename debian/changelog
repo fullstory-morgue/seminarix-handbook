@@ -1,6 +1,4 @@
-seminarix-handbook (0.1.0) UNRELEASED; urgency=low
-
-  * NOT RELEASED YET
+seminarix-handbook (0.1.0) unstable; urgency=low
 
   [ Horst Tritremmel ]
   * Initial release
@@ -8,15 +6,13 @@ seminarix-handbook (0.1.0) UNRELEASED; urgency=low
   * debian/control fixed
   * second fix debian/control
   * technik.html chemie.html sprachen.html updated
+  * copyright fixed
 
   [ Stefan Lippers-Hollmann ]
-  * fix debian/copyright as far as possible - NOT O.K. YET!
+  * fix debian/copyright as far as possible.
   * s/Sidux/sidux/g.
   * remove private dh_fixperms function, the source needs to be fixed instead.
   * fix up file attributes in svn.
   * fix up Recommends and drop the browser to Suggests.
-
-  [ Horst Tritremmel ]
-  * copyright fixed
 
  -- Horst Tritremmel <hjt@sidux.com>  Fri, 23 Nov 2007 22:41:18 +0100
