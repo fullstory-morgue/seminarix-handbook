@@ -1,8 +1,12 @@
 seminarix-handbook (0.1.1) unstable; urgency=low
 
+  [ Horst Tritremmel ]
   * Dinko Sabo added to copyright
 
- -- Horst Tritremmel <hjt@sidux.com>  Sat, 24 Nov 2007 22:15:57 +0100
+  [ Stefan Lippers-Hollmann ]
+  * fix lintian errors.
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Sun, 25 Nov 2007 21:18:16 +0100
 
 seminarix-handbook (0.1.0) unstable; urgency=low
 

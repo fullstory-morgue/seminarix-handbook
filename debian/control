@@ -17,7 +17,7 @@ Description: sidux seminarix handbook for teachers
 Package: seminarix-handbook-common
 Architecture: all
 Description: sidux seminarix handbook - common files
-  Make things easier for teachers - common files
+ Make things easier for teachers - common files
 
 Package: seminarix-handbook-de
 Architecture: all
@@ -25,5 +25,5 @@ Depends: seminarix-handbook-common
 Recommends: sidux-xdg
 Suggests: iceweasel | x-www-browser
 Description: the official German seminarix-handbook
- Make things easier for teachers - german files
+ Make things easier for teachers - German files
 
