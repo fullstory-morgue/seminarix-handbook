@@ -4,7 +4,7 @@ Type=Application
 Exec=x-www-browser /usr/share/seminarix-handbook/de/index.html
 Icon=seminarix-handbook
 
-Name=sidux seminarix manual
-Name[de]=sidux seminarix Handbuch
+Name=seminarix manual
+Name[de]=Seminarix Handbuch
 
 Categories=sidux
