@@ -1,9 +1,5 @@
-seminarix-handbook (0.1.4) UNRELEASED; urgency=low
+seminarix-handbook (0.1.4) unstable; urgency=low
 
-  [ Stefan Lippers-Hollmann ]
-  * NOT RELEASED YET
-
-  [ Horst Tritremmel ]
   * seminarix-intern.html updated
   * chemie.html allgemein.html updated
 
