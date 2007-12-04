@@ -1,9 +1,13 @@
 seminarix-handbook (0.1.5) UNRELEASED; urgency=low
 
+  [ Stefan Lippers-Hollmann ]
   * NOT RELEASED YET
   * update to Standards-Version 3.7.3, no changes necessary.
 
- -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Mon, 03 Dec 2007 14:07:31 +0100
+  [ Horst Tritremmel ]
+  * seminarix-intern.html allgemein.html informatik.html updated
+
+ -- Horst Tritremmel <hjt@sidux.com>  Tue, 04 Dec 2007 18:29:01 +0100
 
 seminarix-handbook (0.1.4) unstable; urgency=low
 
