@@ -5,8 +5,9 @@ seminarix-handbook (0.1.6) UNRELEASED; urgency=low
 
   [ Ferdinand Thommes ]
   * added seminarix-handbook again
+  * added handbook
 
- -- Ferdinand Thommes <devil@sidux.com>  Wed, 05 Dec 2007 20:58:50 +0100
+ -- Ferdinand Thommes <devil@sidux.com>  Wed, 05 Dec 2007 21:58:05 +0100
 
 seminarix-handbook (0.1.5) unstable; urgency=low
 
