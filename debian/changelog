@@ -8,8 +8,9 @@ seminarix-handbook (0.1.5) UNRELEASED; urgency=low
   * updated seminarix-intern.html
   * fixed tags in seminarix-intern.html
   * fixed tags again in seminarix-intern.html
+  * dch updated musik.html seminarix-intern.html
 
- -- Ferdinand Thommes <devil@sidux.com>  Thu, 06 Dec 2007 12:18:20 +0100
+ -- Ferdinand Thommes <devil@sidux.com>  Thu, 06 Dec 2007 19:14:19 +0100
 
 seminarix-handbook (0.1.4) unstable; urgency=low
 
