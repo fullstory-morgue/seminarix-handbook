@@ -1,23 +1,13 @@
-seminarix-handbook (0.1.6) UNRELEASED; urgency=low
+seminarix-handbook (0.1.5) UNRELEASED; urgency=low
 
   [ Stefan Lippers-Hollmann ]
   * NOT RELEASED YET
 
   [ Ferdinand Thommes ]
-  * added seminarix-handbook again
-  * added handbook
+  * added new file dir
+  * updated seminarix-intern.html
 
- -- Ferdinand Thommes <devil@sidux.com>  Wed, 05 Dec 2007 21:58:05 +0100
-
-seminarix-handbook (0.1.5) unstable; urgency=low
-
-  [ Stefan Lippers-Hollmann ]
-  * update to Standards-Version 3.7.3, no changes necessary.
-
-  [ Horst Tritremmel ]
-  * seminarix-intern.html allgemein.html informatik.html updated
-
- -- Horst Tritremmel <hjt@sidux.com>  Tue, 04 Dec 2007 18:29:01 +0100
+ -- Ferdinand Thommes <devil@sidux.com>  Thu, 06 Dec 2007 09:16:34 +0100
 
 seminarix-handbook (0.1.4) unstable; urgency=low
 
