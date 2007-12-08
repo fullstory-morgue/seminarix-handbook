@@ -1,9 +1,5 @@
-seminarix-handbook (0.1.5) UNRELEASED; urgency=low
+seminarix-handbook (0.1.5) unstable; urgency=low
 
-  [ Stefan Lippers-Hollmann ]
-  * NOT RELEASED YET
-
-  [ Ferdinand Thommes ]
   * added new file dir
   * updated seminarix-intern.html
   * fixed tags in seminarix-intern.html
