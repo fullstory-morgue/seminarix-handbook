@@ -1,9 +1,5 @@
-seminarix-handbook (0.1.6) UNRELEASED; urgency=low
+seminarix-handbook (0.1.6) unstable; urgency=low
 
-  [ Stefan Lippers-Hollmann ]
-  * NOT RELEASED YET
-
-  [ Ferdinand Thommes ]
   * updated allgemein.html informatik.html kunst.html
 
  -- Ferdinand Thommes <devil@sidux.com>  Sun, 09 Dec 2007 15:39:03 +0100
