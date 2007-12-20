@@ -1,9 +1,5 @@
-seminarix-handbook (0.1.8) UNRELEASED; urgency=low
+seminarix-handbook (0.1.8) unstable; urgency=low
 
-  [ Stefan Lippers-Hollmann ]
-  * NOT RELEASED YET
-
-  [ Ferdinand Thommes ]
   * new version of handbook edited by bluewater
 
  -- Ferdinand Thommes <devil@sidux.com>  Thu, 20 Dec 2007 19:52:28 +0100
