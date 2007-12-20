@@ -130,11 +130,11 @@
 
 <p><span class="bold">Der Programmstarter</span></p>
 
-<p>Durch Doppelklick oder Klick auf einen Startbutton wird das jeweilige Programm gestartet. Auch nicht auf der CD enthaltene Programme sind im Men&#252;system aufgef&#252;hrt. Dies ist dann an der ge&#228;nderten Buttonbeschriftung("Programm installieren" statt "Programm starten") erkennbar. Wird der entsprechende Eintrag angeklickt, erfolgt eine kurze R&#252;ckfrage ob das entsprechende Programm nachinstalliert werden soll.</p>
+<p>Durch Doppelklick oder Klick auf einen Startbutton wird das jeweilige Programm gestartet. Auch nicht auf der CD enthaltene Programme sind im Menüsystem aufgeführt. Dies ist dann an der geänderten Buttonbeschriftung("Programm installieren" statt "Programm starten") erkennbar. Wird der entsprechende Eintrag angeklickt, erfolgt eine kurze Rückfrage ob das entsprechende Programm nachinstalliert werden soll.</p>
 
 <p>In der Beschreibung zum jeweiligen Programm befindet sich auch ein Link zur Homepage auf der Sie noch mehr Informationen zum jeweiligen Programm finden.</p>
 
-<p><img src="pictures/sidux-edu-starter.png" alt="sidux-edu-starter" width="698" height="529"></p>
+<p><IMG src="pictures/sidux-edu-starter.png" alt="sidux-edu-starter" width="698" height="529"></p>
 
 <p>&nbsp;</p>
 
@@ -143,33 +143,33 @@
 <p>Es kann auch ein persistentes Homeverzeichniss angelegt werden, in dem dann die &#228;nderung werden der Nutzung der LiveCD gespeichert werden k&#246;nnen um so nach dem n&#228;chsten Neustart der LiveCD diese wieder nutzen zu k&#246;nnen.</p>
 <p>Mit sidux (ab Eros) kann ein dauerhaftes (persistentes) Live-System auf einer beschreibbaren Partition eingerichtet werden, indem die Bootoptionen 'fromiso' und 'persist' kombiniert werden.</p>
 
-<p>sidux nutzt aufs, um mittels "copy on write" neue oder ver&#228;nderte Daten im RAM zu speichern. Mit der Bootoption persist k&#246;nnen diese Daten auf derjenigen Partition gespeichert werden, auf welcher sich das fromiso-CD-Abbild befindet.</p>
+<p>sidux nutzt aufs, um mittels "copy on write" neue oder veränderte Daten im RAM zu speichern. Mit der Bootoption persist können diese Daten auf derjenigen Partition gespeichert werden, auf welcher sich das fromiso-CD-Abbild befindet.</p>
 
-<p>persist verhilft zu einem Live-System, welches alle automatisierten Routinen der sidux-Live-CD enth&#228;lt (zum Beispiel Hardwarekonfiguration), gleichzeitig aber mit pers&#246;nlichen Daten und Einstellungen gebootet werden kann.</p>
+<p>persist verhilft zu einem Live-System, welches alle automatisierten Routinen der sidux-Live-CD enthält (zum Beispiel Hardwarekonfiguration), gleichzeitig aber mit persönlichen Daten und Einstellungen gebootet werden kann.</p>
 
-<p>Zur Verdeutlichung: das System speichert nicht die Einstellungen des graphischen Servers X (Grafikkarte, Tastatur, Maus) oder der Netzwerkkarte, sondern nur die pers&#246;nlichen Daten und Einstellungen.Somit ist es ideal, um es auf mehr als einem Computer zu nutzen.</p>
+<p>Zur Verdeutlichung: das System speichert nicht die Einstellungen des graphischen Servers X (Grafikkarte, Tastatur, Maus) oder der Netzwerkkarte, sondern nur die persönlichen Daten und Einstellungen.Somit ist es ideal, um es auf mehr als einem Computer zu nutzen.</p>
 
-<p>persist ist ideal in Kombination mit install-usb-gui, um einen bootbaren USB-Stick mit eigenen Daten und selbstgew&#228;hlter Software zu erstellen.</p>
+<p>persist ist ideal in Kombination mit install-usb-gui, um einen bootbaren USB-Stick mit eigenen Daten und selbstgewählter Software zu erstellen.</p>
 
-<p>Die pers&#246;nlichen Daten werden in einem Unterverzeichnis der fromiso-Partition gespeichert. Wenn dieses Unterverzeichnis noch nicht vorhanden ist, wird es automatisch erstellt, wenn die Bootoptionen fromiso und persist gemeinsam benutzt werden.</p>
+<p>Die persönlichen Daten werden in einem Unterverzeichnis der fromiso-Partition gespeichert. Wenn dieses Unterverzeichnis noch nicht vorhanden ist, wird es automatisch erstellt, wenn die Bootoptionen fromiso und persist gemeinsam benutzt werden.</p>
 
-<p>Persist auf einem FAT-Dateisystem (vorformatiert auf den meisten Flash-Speichern) ben&#246;tigt eine große Datei, die als Loop-Ger&#228;t benutzt wird. Diese Datei muss formatiert werden (empfohlen ist ext3).</p>
+<p>persist auf einem FAT-Dateisystem (vorformatiert auf den meisten Flash-Speichern) benötigt eine große Datei, die als Loop-Gerät benutzt wird. Diese Datei muss formatiert werden (empfohlen ist ext3).</p>
 
-<p>Diese Datei soll sidux-rw benannt werden und im Root-Verzeichnis der FAT-Partition (des mit FAT formatierten Flash-Speichers) platziert werden. Wenn die Partition zum Beispiel beschreibbar auf /media/sdb1 eingeh&#228;ngt ist und eine Datei mit 1GB Gr&#246;ße erstellt werden soll, um als dauerhaft genutzte Partition zu fungieren, werden folgende Befehle genutzt (es wird kein root ben&#246;tigt, wenn der user Schreibrechte hat):</p>
+<p>Diese Datei soll sidux-rw benannt werden und im Root-Verzeichnis der FAT-Partition (des mit FAT formatierten Flash-Speichers) platziert werden. Wenn die Partition zum Beispiel beschreibbar auf /media/sdb1 eingehängt ist und eine Datei mit 1GB Größe erstellt werden soll, um als dauerhaft genutzte Partition zu fungieren, werden folgende Befehle genutzt (es wird kein root benötigt, wenn der user Schreibrechte hat):</p>
 
 <p>disc="/media/sdb1"<br>
 size=1024<br>
-dd if=/dev/zero of=${disc}/sidux-rw bs=1M count=${size} &#038;&#038; echo 'y' | /sbin/mkfs.ext3 ${disc}/sidux-rw</p>
+dd if=/dev/zero of=${disc}/sidux-rw bs=1M count=${size} && echo 'y' | /sbin/mkfs.ext3 ${disc}/sidux-rw</p>
 <div class="italicred">
-<p>Mit NTFS formatierte Partitionen (Standard f&#252;r Windows NT/2000/XP/Vista (TM)) k&#246;nnen NICHT mit der Bootoption persist benutzt werden.</p>
+<p>Mit NTFS formatierte Partitionen (Standard für Windows NT/2000/XP/Vista (TM)) können NICHT mit der Bootoption persist benutzt werden.</p>
 </div>
 
 <p>&nbsp;</p>
 
 <p><span class="bold">Was nicht mehr auf die CD gepasst hat</span></p>
 
-<p>OpenSource-Programme entwickeln sich st&#228;ndig weiter, tendenziell werden die entsprechenden Pakete immer umfangreicher. 
-Aus diesen Gr&#252;nden musste daher aus Platzgr&#252;nden auf einige Pakete verzichtet werden, die noch in der letzten, noch auf Kubuntu 6.06 basierenden Version enthalten waren. Diese k&#246;nnen jedoch alle (bis auf NVU) direkt aus dem Programmstarter heraus nachinstalliert werden.</p>
+<p>OpenSource-Programme entwickeln sich ständig weiter, tendenziell werden die entsprechenden Pakete immer umfangreicher. 
+Aus diesen Gründen musste daher aus Platzgründen auf einige Pakete verzichtet werden, die noch in der letzten, noch auf Kubuntu 6.06 basierenden Version enthalten waren. Diese können jedoch alle (bis auf NVU) direkt aus dem Programmstarter heraus nachinstalliert werden.</p>
 
 <ul>
 <li>KDissert</li>
@@ -188,40 +188,38 @@ Aus diesen Gr&#252;nden musste daher aus Platzgr&#252;nden auf einige Pakete ver
 <li>Kletters</li>
 <li>Linux Letters and Numbers</li>
 <li>Lmemory</li>
-<li>Pimgus</li>
-<li>Tipptrainer</li>
-<li>TuxType</li>
-<li>Octave</li>
-<li>RKWard</li>
-<li>Amarok</li>
-<li>Glame</li>
-<li>Celistia</li>
-<li>Weltzeituhr</li>
-<li>Xoscope</li>
-<li>Kiten</li>
-<li>KVerbos</li>
-<Li>KTechlab</li>
-<li>PCB</li>
-<Li>qcad</li>
-<li><span class="italicred">NVU</span></li> 
+<Li>Pimgus</Li>
+<Li>Tipptrainer</Li>
+<Li>TuxType</Li>
+<Li>Octave</Li>
+<Li>RKWard</Li>
+<Li>Amarok</Li>
+<Li>Glame</Li>
+<Li>Celistia</Li>
+<Li>Weltzeituhr</Li>
+<Li>Xoscope</Li>
+<Li>Kiten</Li>
+<Li>KVerbos</Li>
+<Li>KTechlab</Li>
+<Li>PCB</Li>
+<Li>qcad</Li>
+<li><span class="italicred">NVU</span></Li> 
 </ul>
 
-<p>NVU wurde durch Quanta ersetzt, da NVU nicht in Debian enthalten ist. Die Einarbeitung in Quanta erfordert zwar anfangs einen etwas h&#246;heren Lernaufwand, daf&#252;r hat man dann aber ein weitaus leistungsf&#228;higeres Werkzeug zur Verf&#252;gung, welches außerdem wesentlich sauberere Webseiten generiert.</p>
+<p>NVU wurde durch Quanta ersetzt, da NVU nicht in Debian enthalten ist. Die Einarbeitung in Quanta erfordert zwar anfangs einen etwas höheren Lernaufwand, dafür hat man dann aber ein weitaus leistungsfähigeres Werkzeug zur Verfügung, welches außerdem wesentlich sauberere Webseiten generiert.</p>
 <p>&nbsp;</p>
 <p><span class="bold">Mitwirkende des sidux-seminarix-Projektes:</span></p>
 
 <p>
 Thomas Kross (captagon)<br>
 Roland Engert (RoEn)<br>
-Bj&#246;rn Jilg (BlueShadow)<br>
-Ferdi Thommes (devil)<br>
-Hendrik Lehmbruch (hendrikL)<br>
-Horst Tritremmel (hjt)<br>
+Björn Jilg (BlueShadow)<br>
+Hendrik Lehmbruch (hendrikL) <br>
 Dinko Sabo (cobra)<br>
 Fabian Wuertz (xadras)<br>
 Wolf-Dieter Zimmermann (emile)<br>
 </p>
-<p>Besonderer Dank geht an das gesamte sidux-Entwicklerteam, dessen hervorragende Leistung dieses Projekt erst m&#246;glich gemacht hat.</p>
+<p>Besonderer Dank geht an das gesamte sidux-Entwicklerteam, dessen hervorragende Leistung dieses Projekt erst möglich gemacht hat.</p>
 <p>&nbsp;</p>
 <p>Weitere Informationen zur Installation von Seminarix finden Sie in den Manual-Pages von sidux.</p>
 <p><a href="/usr/share/sidux-manual/de/welcome-de.htm" target="_blank">sidux-manual deutsch</a><br>
@@ -243,7 +241,7 @@ Wolf-Dieter Zimmermann (emile)<br>
 <!--Fusszeile-->
 <div class="Fusszeile">
 <div class="center"><!--centriert den text-->
-<p>Sollten Sie&nbsp;sich mit Verantwortlichen f&#252;r dieses Projekt in Verbindung setzen wollen, schreiben Sie bitte bei informellen Fragen eine <span class="bold">Email</span> an <a href="mailto:info@seminarix.org">info@seminarix.org</a>,<br>
+<p>Sollten Sie&nbsp;sich mit Verantwortlichen für dieses Projekt in Verbindung setzen wollen, schreiben Sie bitte bei informellen Fragen eine <span class="bold">Email</span> an <a href="mailto:info@seminarix.org">info@seminarix.org</a>,<br>
 oder bei technischen Fragen eine <span class="bold">Email</span> an <a href="mailto:edu@sidux-ev.de">edu@sidux-ev.de</a></p>
 
 

@@ -154,7 +154,9 @@ a.info {
 /* --- kopfzeile / header --- */
 
 div.kopfzeile {
-    background-color : #DFDBC3;
+    /*background-color : #DFDBC3;*/
+    background-color: inherit;
+    border: 1px solid silver;
     color : inherit;
     clear: both;
     width : 100%;
@@ -204,7 +206,7 @@ div.hauptnavigation {
     font-weight: bold;
     text-align: left;
     float: left;
-    position: absolute;
+    position: fixed;
     max-width: 12em;
     padding-left : 4em;
     padding-top: 6em;
