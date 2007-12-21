@@ -5,8 +5,9 @@ seminarix-handbook (0.1.9) UNRELEASED; urgency=low
 
   [ Ferdinand Thommes ]
   * fixed html
+  * fixed index.html
 
- -- Ferdinand Thommes <devil@sidux.com>  Fri, 21 Dec 2007 10:44:57 +0100
+ -- Ferdinand Thommes <devil@sidux.com>  Fri, 21 Dec 2007 12:10:29 +0100
 
 seminarix-handbook (0.1.8) unstable; urgency=low
 
