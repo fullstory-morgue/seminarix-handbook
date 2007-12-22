@@ -1,9 +1,5 @@
-seminarix-handbook (0.1.9) UNRELEASED; urgency=low
+seminarix-handbook (0.1.9) unstable; urgency=low
 
-  [ Stefan Lippers-Hollmann ]
-  * NOT RELEASED YET
-
-  [ Ferdinand Thommes ]
   * fixed html
   * fixed index.html
 
