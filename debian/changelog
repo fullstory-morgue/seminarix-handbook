@@ -6,8 +6,9 @@ seminarix-handbook (0.1.10) UNRELEASED; urgency=low
   [ Ferdinand Thommes ]
   * fixed broken links
   * second try
+  * new menu
 
- -- Ferdinand Thommes <devil@sidux.com>  Sun, 23 Dec 2007 18:44:43 +0100
+ -- Ferdinand Thommes <devil@sidux.com>  Sun, 23 Dec 2007 18:46:02 +0100
 
 seminarix-handbook (0.1.9) unstable; urgency=low
 
