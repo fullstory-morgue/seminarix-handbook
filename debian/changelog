@@ -8,8 +8,9 @@ seminarix-handbook (0.1.10) UNRELEASED; urgency=low
   * second try
   * new menu
   * adapted css version
+  * added new logo to /images/images
 
- -- Ferdinand Thommes <devil@sidux.com>  Sun, 23 Dec 2007 18:52:51 +0100
+ -- Ferdinand Thommes <devil@sidux.com>  Sun, 23 Dec 2007 18:57:41 +0100
 
 seminarix-handbook (0.1.9) unstable; urgency=low
 
