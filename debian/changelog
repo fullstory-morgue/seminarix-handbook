@@ -1,9 +1,5 @@
-seminarix-handbook (0.1.10) UNRELEASED; urgency=low
+seminarix-handbook (0.1.10) unstable; urgency=low
 
-  [ Stefan Lippers-Hollmann ]
-  * NOT RELEASED YET
-
-  [ Ferdinand Thommes ]
   * fixed broken links
   * second try
   * new menu
