@@ -7,8 +7,9 @@ seminarix-handbook (0.1.11) UNRELEASED; urgency=low
   * fixed html
   * added lib
   * added lib
+  * added lib again
 
- -- Ferdinand Thommes <devil@sidux.com>  Wed, 26 Dec 2007 02:23:39 +0100
+ -- Ferdinand Thommes <devil@sidux.com>  Wed, 26 Dec 2007 02:27:11 +0100
 
 seminarix-handbook (0.1.10) unstable; urgency=low
 
