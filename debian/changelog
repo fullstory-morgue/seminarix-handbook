@@ -1,3 +1,9 @@
+seminarix-handbook (0.1.12) UNRELEASED; urgency=low
+
+  * NOT RELEASED YET
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Wed, 26 Dec 2007 14:41:37 +0100
+
 seminarix-handbook (0.1.11) unstable; urgency=low
 
   * really add lib/ again.
