@@ -1,3 +1,4 @@
-*.html							usr/share/seminarix-handbook/de/
-files/*							usr/share/seminarix-handbook/de/files/
+*.html							usr/share/seminarix-handbook/
+files/*							usr/share/seminarix-handbook/files/
+lib/*								usr/share/seminarix-handbook/lib/
 
