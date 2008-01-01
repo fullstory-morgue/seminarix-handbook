@@ -1,9 +1,5 @@
-seminarix-handbook (0.1.12) UNRELEASED; urgency=low
+seminarix-handbook (0.1.12) unstable; urgency=low
 
-  [ Stefan Lippers-Hollmann ]
-  * NOT RELEASED YET
-
-  [ Ferdinand Thommes ]
   * fixed links in seminarix-handbook-de.install
 
  -- Ferdinand Thommes <devil@sidux.com>  Mon, 31 Dec 2007 14:44:14 +0100
