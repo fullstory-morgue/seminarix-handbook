@@ -1,5 +1,5 @@
-*.html							usr/share/seminarix-handbook-de/
-files/*							usr/share/seminarix-handbook-de/files/
+#*.html							usr/share/seminarix-handbook-de/
+#files/*							usr/share/seminarix-handbook-de/files/
 #lib/css-js						usr/share/sidux-manual/lib
 #lib/favicon						usr/share/sidux-manual/lib
 #lib/logos						usr/share/sidux-manual/lib

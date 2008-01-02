@@ -4,4 +4,4 @@
 	title="seminarix handbook" \
 	icon32x32="/usr/share/pixmaps/seminarix-handbook.xpm" \
 	icon16x16="/usr/share/pixmaps/seminarix-handbook-16.xpm" \
-	command="x-www-browser /usr/share/seminarix-handbook/de/index.html"
+	command="x-www-browser /usr/share/seminarix-handbook/index.html"
