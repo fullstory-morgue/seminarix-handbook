@@ -5,8 +5,9 @@ seminarix-handbook (0.1.14) UNRELEASED; urgency=low
 
   [ Ferdinand Thommes ]
   * fixed typos
+  * fixed typo in seminarix-handbook.desktop
 
- -- Ferdinand Thommes <devil@sidux.com>  Thu, 03 Jan 2008 12:53:21 +0100
+ -- Ferdinand Thommes <devil@sidux.com>  Thu, 03 Jan 2008 12:56:23 +0100
 
 seminarix-handbook (0.1.13) unstable; urgency=low
 
