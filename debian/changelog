@@ -1,8 +1,12 @@
 seminarix-handbook (0.1.14) UNRELEASED; urgency=low
 
+  [ Stefan Lippers-Hollmann ]
   * NOT RELEASED YET
 
- -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Thu, 03 Jan 2008 03:46:45 +0100
+  [ Ferdinand Thommes ]
+  * fixed typos
+
+ -- Ferdinand Thommes <devil@sidux.com>  Thu, 03 Jan 2008 12:53:21 +0100
 
 seminarix-handbook (0.1.13) unstable; urgency=low
 

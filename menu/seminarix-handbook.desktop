@@ -1,7 +1,7 @@
 [Desktop Entry]
 Encoding=UTF-8
 Type=Application
-Exec=x-www-browser /usr/share/seminarix-handbook/de/index.html
+Exec=x-www-browser /usr/share/seminarix-handbook/index.html
 Icon=seminarix-handbook
 
 Name=seminarix manual
