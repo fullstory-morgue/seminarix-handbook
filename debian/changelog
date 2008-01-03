@@ -1,9 +1,5 @@
-seminarix-handbook (0.1.13) UNRELEASED; urgency=low
+seminarix-handbook (0.1.13) unstable; urgency=low
 
-  [ Stefan Lippers-Hollmann ]
-  * NOT RELEASED YET
-
-  [ Ferdinand Thommes ]
   * added fixed seminarix-common.install seminarix-common.menu
 
  -- Ferdinand Thommes <devil@sidux.com>  Wed, 02 Jan 2008 21:31:50 +0100
