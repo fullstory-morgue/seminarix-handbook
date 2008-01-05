@@ -1,9 +1,5 @@
-seminarix-handbook (0.1.14) UNRELEASED; urgency=low
+seminarix-handbook (0.1.14) unstable; urgency=low
 
-  [ Stefan Lippers-Hollmann ]
-  * NOT RELEASED YET
-
-  [ Ferdinand Thommes ]
   * fixed typos
   * fixed typo in seminarix-handbook.desktop
 
