@@ -1,6 +1,7 @@
 #!/usr/bin/make -f
   
 include /usr/share/cdbs/1/rules/debhelper.mk
+include /usr/share/cdbs/1/rules/dpatch.mk
 
 install/seminarix-handbook-common::
 	mkdir -p debian/seminarix-handbook-common/usr/share/pixmaps

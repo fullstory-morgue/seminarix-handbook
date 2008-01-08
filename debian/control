@@ -22,7 +22,6 @@ Description: sidux seminarix handbook - common files
 Package: seminarix-handbook-de
 Architecture: all
 Depends: seminarix-handbook-common
-Recommends: sidux-xdg
 Suggests: iceweasel | x-www-browser
 Description: the official German seminarix-handbook
  Make things easier for teachers - German files

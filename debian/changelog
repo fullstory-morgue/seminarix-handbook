@@ -1,8 +1,8 @@
-seminarix-handbook (0.1.15) UNRELEASED; urgency=low
+seminarix-handbook (0.1.15) unstable; urgency=low
 
-  * NOT RELEASED YET
+  * remove dependency on sidux-xdg.
 
- -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Sat, 05 Jan 2008 01:46:39 +0100
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Tue, 08 Jan 2008 20:13:24 +0100
 
 seminarix-handbook (0.1.14) unstable; urgency=low
 
