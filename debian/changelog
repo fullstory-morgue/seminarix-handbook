@@ -1,12 +1,12 @@
-seminarix-handbook (0.1.16) UNRELEASED; urgency=low
-
-  [ Stefan Lippers-Hollmann ]
-  * NOT RELEASED YET
+seminarix-handbook (0.1.16) unstable; urgency=low
 
   [ Ferdinand Thommes ]
   * fixed categorie in seminarix-handbook.desktop
 
- -- Ferdinand Thommes <devil@sidux.com>  Wed, 09 Jan 2008 08:45:48 +0100
+  [ Stefan Lippers-Hollmann ]
+  * remove previous patch again, merged upstream.
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Wed, 09 Jan 2008 14:35:25 +0100
 
 seminarix-handbook (0.1.15) unstable; urgency=low
 
