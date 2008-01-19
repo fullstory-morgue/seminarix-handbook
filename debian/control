@@ -3,7 +3,7 @@ Section: doc
 Priority: extra
 Maintainer: Horst Tritremmel <hjt@sidux.com>
 Uploaders: Stefan Lippers-Hollmann <s.l-h@gmx.de>
-Build-Depends: cdbs, debhelper (>= 6), imagemagick
+Build-Depends: cdbs, debhelper (>= 5), imagemagick
 Standards-Version: 3.7.3
 Vcs-Svn: svn://svn.berlios.de/fullstory/seminarix-handbook/trunk
 Vcs-Browser: http://svn.berlios.de/wsvn/fullstory/seminarix-handbook/trunk/
