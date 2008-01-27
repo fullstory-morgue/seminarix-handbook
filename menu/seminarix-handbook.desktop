@@ -2,7 +2,7 @@
 Encoding=UTF-8
 Type=Application
 Exec=x-www-browser /usr/share/seminarix-handbook/index.html
-Icon=seminarix-handbook
+Icon=siduxedu
 
 Name=seminarix manual
 Name[de]=Seminarix Handbuch

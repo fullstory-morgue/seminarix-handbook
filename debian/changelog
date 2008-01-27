@@ -1,23 +1,20 @@
 seminarix-handbook (0.1.19) UNRELEASED; urgency=low
 
+  [ Stefan Lippers-Hollmann ]
   * NOT RELEASED YET
 
- -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Tue, 22 Jan 2008 18:28:40 +0100
-
-<<<<<<< .mine
   [ Ferdinand Thommes ]
-  * changed all html files to use new icon
-=======
-seminarix-handbook (0.1.18) unstable; urgency=low
->>>>>>> .r14822
+  * set seminarix-handbook.desktop to use new icon
 
-<<<<<<< .mine
+ -- Ferdinand Thommes <devil@sidux.com>  Sun, 27 Jan 2008 09:04:40 +0100
+
+seminarix-handbook (0.1.18) unstable; urgency=low
+
  -- Ferdinand Thommes <devil@sidux.com>  Fri, 25 Jan 2008 10:07:34 +0100
 
 seminarix-handbook (0.1.17) UNRELEASED; urgency=low
-=======
+
   * bump version number to fix caching issues.
->>>>>>> .r14822
 
  -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Tue, 22 Jan 2008 18:26:54 +0100
 
