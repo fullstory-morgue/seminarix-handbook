@@ -1,4 +1,5 @@
-?package(sidux-manual-common):needs="X11" \
+?package(seminarix-handbook-common): \
+	needs="X11" \
 	section="Help" \
 	hints="sidux" \
 	title="seminarix handbook" \

@@ -1,3 +1,11 @@
+seminarix-handbook (0.1.21) unstable; urgency=low
+
+  * fix lintian errors:
+    - html files shouldn't be executable.
+    - debian menu system files need to follow syntax and semantics.
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Wed, 30 Jan 2008 01:21:23 +0100
+
 seminarix-handbook (0.1.20) unstable; urgency=low
 
   * added final icon
