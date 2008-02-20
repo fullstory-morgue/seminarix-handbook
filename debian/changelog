@@ -1,3 +1,9 @@
+seminarix-handbook (0.1.24) UNRELEASED; urgency=low
+
+  * NOT RELEASED YET
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Wed, 20 Feb 2008 23:52:38 +0100
+
 seminarix-handbook (0.1.23) unstable; urgency=low
 
   * appease lintian and write (C) as © in debian/copyright.
