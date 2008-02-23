@@ -1,8 +1,13 @@
 seminarix-handbook (0.1.24) UNRELEASED; urgency=low
 
+  [ Stefan Lippers-Hollmann ]
   * NOT RELEASED YET
 
- -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Wed, 20 Feb 2008 23:52:38 +0100
+  [ Ferdinand Thommes ]
+  * removed old cruft debian files index.html lib menu added all new
+    logos to the html files
+
+ -- Ferdinand Thommes <devil@sidux.com>  Sat, 23 Feb 2008 18:04:07 +0100
 
 seminarix-handbook (0.1.23) unstable; urgency=low
 

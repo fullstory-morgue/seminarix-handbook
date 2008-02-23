@@ -10,7 +10,7 @@ Vcs-Browser: http://svn.berlios.de/wsvn/fullstory/seminarix-handbook/trunk/
 
 Package: seminarix-handbook
 Architecture: all
-Depends: seminarix-handbook-common, seminarix-handbook-de
+Depends: seminarix-handbook-common, seminarix-handbook-de, sidux-edu
 Description: sidux seminarix handbook for teachers
  Make things easier for teachers
 
