@@ -1,9 +1,5 @@
-seminarix-handbook (0.1.24) UNRELEASED; urgency=low
+seminarix-handbook (0.1.24) unstable; urgency=low
 
-  [ Stefan Lippers-Hollmann ]
-  * NOT RELEASED YET
-
-  [ Ferdinand Thommes ]
   * removed old cruft debian files index.html lib menu added all new
     logos to the html files
   * add new logos for html files
