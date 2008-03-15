@@ -1,17 +1,46 @@
+seminarix-handbook (0.1.29) UNRELEASED; urgency=low
+
+  [ Dinko Sabo ]
+  * added refined sidux logo and new seminarix logo (freeze)
+  * added corrected html files (freeze)
+
+  [ Ferdinand Thommes ]
+  * fixed debian filesto match correct paths of handbook
+
+ -- Ferdinand Thommes <devil@sidux.com>  Sat, 15 Mar 2008 09:31:44 +0100
+
+seminarix-handbook (0.1.28) UNRELEASED; urgency=low
+
+  * updated to new logo in sidux-style
+
+ -- Dinko Sabo <cobra@sidux.com>  Thu, 13 Mar 2008 05:15:34 +0100
+
+seminarix-handbook (0.1.27) UNRELEASED; urgency=low
+
+  * deleted old cruft
+  * added all new logos to the html files
+  * fixed debian packaging
+  * fixed menu entry
+
+ -- Dinko Sabo <cobra@sidux.com>  Sat, 23 Feb 2008 10:56:06 +0100
+
+seminarix-handbook (0.1.26) UNRELEASED; urgency=low
+
+  * synced with berlios
+
+ -- Dinko Sabo <cobra@sidux.com>  Sat, 23 Feb 2008 10:18:14 +0100
+
 seminarix-handbook (0.1.25) UNRELEASED; urgency=low
+
+  * added new seminarix logo
+
+ -- Dinko Sabo <cobra@sidux.com>  Sat, 23 Feb 2008 10:15:44 +0100
+
+seminarix-handbook (0.1.24) UNRELEASED; urgency=low
 
   * NOT RELEASED YET
 
- -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Sat, 23 Feb 2008 23:44:28 +0100
-
-seminarix-handbook (0.1.24) unstable; urgency=low
-
-  * removed old cruft debian files index.html lib menu added all new
-    logos to the html files
-  * add new logos for html files
-  * added new logos
-
- -- Ferdinand Thommes <devil@sidux.com>  Sat, 23 Feb 2008 18:11:05 +0100
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Wed, 20 Feb 2008 23:52:38 +0100
 
 seminarix-handbook (0.1.23) unstable; urgency=low
 
