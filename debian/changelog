@@ -1,11 +1,11 @@
-seminarix-handbook (0.1.29) UNRELEASED; urgency=low
+seminarix-handbook (0.1.29) unstable; urgency=low
 
   [ Dinko Sabo ]
   * added refined sidux logo and new seminarix logo (freeze)
   * added corrected html files (freeze)
 
   [ Ferdinand Thommes ]
-  * fixed debian filesto match correct paths of handbook
+  * fixed debian files to match correct paths of handbook
   * added refined sidux logo and new seminarix logo
 
  -- Ferdinand Thommes <devil@sidux.com>  Sat, 15 Mar 2008 09:32:37 +0100
