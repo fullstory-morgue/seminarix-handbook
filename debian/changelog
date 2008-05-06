@@ -1,3 +1,10 @@
+seminarix-handbook (0.2.1+nmu1) UNRELEASED; urgency=low
+
+  * Non-maintainer upload.
+  * *added generic name description to seminarix-handbook.desktop
+
+ -- Ferdinand Thommes <devil@sidux.com>  Tue, 06 May 2008 22:16:13 +0200
+
 seminarix-handbook (0.2.1) UNRELEASED; urgency=low
 
   * NOT RELEASED YET
