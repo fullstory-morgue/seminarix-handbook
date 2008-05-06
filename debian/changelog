@@ -1,15 +1,14 @@
-seminarix-handbook (0.2.1+nmu1) UNRELEASED; urgency=low
+seminarix-handbook (0.2.1) unstable; urgency=low
 
+  [ Ferdinand Thommes ]
   * Non-maintainer upload.
-  * *added generic name description to seminarix-handbook.desktop
+  * added generic name description to seminarix-handbook.desktop.
 
- -- Ferdinand Thommes <devil@sidux.com>  Tue, 06 May 2008 22:16:13 +0200
+  [ Stefan Lippers-Hollmann ]
+  * switch to the new dh implementation of debhelper 7.
+  * drop obsolete dependency on imagemagick.
 
-seminarix-handbook (0.2.1) UNRELEASED; urgency=low
-
-  * NOT RELEASED YET
-
- -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Sun, 23 Mar 2008 16:44:48 +0100
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Wed, 07 May 2008 01:36:30 +0200
 
 seminarix-handbook (0.2.0) unstable; urgency=low
 

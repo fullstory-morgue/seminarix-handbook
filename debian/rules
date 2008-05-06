@@ -1,11 +1,4 @@
 #!/usr/bin/make -f
-  
-include /usr/share/cdbs/1/rules/debhelper.mk
 
-#install/seminarix-handbook-common::
-#	mkdir -p debian/seminarix-handbook-common/usr/share/pixmaps
-#	convert menu/icons/hicolor/32x32/seminarix-handbook.png \
-#		debian/seminarix-handbook-common/usr/share/pixmaps/seminarix-handbook.xpm
-#	convert menu/icons/hicolor/16x16/seminarix-handbook.png \
-#		debian/seminarix-handbook-common/usr/share/pixmaps/seminarix-handbook-16.xpm
-
+%:
+	dh $@
