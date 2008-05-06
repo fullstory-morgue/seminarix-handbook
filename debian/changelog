@@ -1,3 +1,13 @@
+seminarix-handbook (0.2.2) UNRELEASED; urgency=low
+
+  * NOT RELEASED YET
+  * W: seminarix-handbook-common: menu-icon-missing
+    /usr/share/pixmaps/siduxedu.xpm
+    W: seminarix-handbook-common: menu-icon-missing
+    /usr/share/pixmaps/siduxedu-16.xpm
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Wed, 07 May 2008 01:39:54 +0200
+
 seminarix-handbook (0.2.1) unstable; urgency=low
 
   [ Ferdinand Thommes ]
