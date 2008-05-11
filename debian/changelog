@@ -1,3 +1,11 @@
+seminarix-handbook (0.2.2+nmu1) UNRELEASED; urgency=low
+
+  * Non-maintainer upload.
+  * debian files index.html lib menu fixed seminarix-handbook.desktop
+    filetype
+
+ -- Ferdinand Thommes <devil@sidux.com>  Sun, 11 May 2008 08:56:24 +0200
+
 seminarix-handbook (0.2.2) UNRELEASED; urgency=low
 
   * NOT RELEASED YET
