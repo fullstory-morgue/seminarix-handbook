@@ -1,20 +1,18 @@
 seminarix-handbook (0.2.2+nmu1) UNRELEASED; urgency=low
 
+  * NOT RELEASED YET
+  * BUGGY:
+    W: seminarix-handbook-common: menu-icon-missing
+    /usr/share/pixmaps/siduxedu.xpm
+    W: seminarix-handbook-common: menu-icon-missing
+    /usr/share/pixmaps/siduxedu-16.xpm
+
+  [ Ferdinand Thommes ]
   * Non-maintainer upload.
   * debian files index.html lib menu fixed seminarix-handbook.desktop
     filetype
 
  -- Ferdinand Thommes <devil@sidux.com>  Sun, 11 May 2008 08:56:24 +0200
-
-seminarix-handbook (0.2.2) UNRELEASED; urgency=low
-
-  * NOT RELEASED YET
-  * W: seminarix-handbook-common: menu-icon-missing
-    /usr/share/pixmaps/siduxedu.xpm
-    W: seminarix-handbook-common: menu-icon-missing
-    /usr/share/pixmaps/siduxedu-16.xpm
-
- -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Wed, 07 May 2008 01:39:54 +0200
 
 seminarix-handbook (0.2.1) unstable; urgency=low
 
