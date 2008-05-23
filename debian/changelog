@@ -1,9 +1,5 @@
-seminarix-handbook (0.2.3) UNRELEASED; urgency=low
+seminarix-handbook (0.2.3) unstable; urgency=low
 
-  [ Stefan Lippers-Hollmann ]
-  * NOT RELEASED YET
-
-  [ Ferdinand Thommes ]
   * debian files index.html lib menu fixed usb-hd installation link,
     corrected wrong manual links
   * debian files index.html lib menu fixed usb-hd installation link,
