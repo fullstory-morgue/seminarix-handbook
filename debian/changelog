@@ -6,8 +6,10 @@ seminarix-handbook (0.2.3) UNRELEASED; urgency=low
   [ Ferdinand Thommes ]
   * debian files index.html lib menu fixed usb-hd installation link,
     corrected wrong manual links
+  * debian files index.html lib menu fixed usb-hd installation link,
+    corrected wrong manual links
 
- -- Ferdinand Thommes <devil@sidux.com>  Fri, 23 May 2008 22:55:46 +0200
+ -- Ferdinand Thommes <devil@sidux.com>  Fri, 23 May 2008 23:22:11 +0200
 
 seminarix-handbook (0.2.2) unstable; urgency=low
 
