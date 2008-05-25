@@ -1,9 +1,5 @@
-seminarix-handbook (0.2.4) UNRELEASED; urgency=low
+seminarix-handbook (0.2.4) unstable; urgency=low
 
-  [ Stefan Lippers-Hollmann ]
-  * NOT RELEASED YET
-
-  [ Ferdinand Thommes ]
   * debian files index.html lib menu fixed sidux-edu/seminarix-handbook
     incompatibility
 
