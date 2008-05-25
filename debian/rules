@@ -5,13 +5,13 @@
 
 build:
 	dh build --until auto_build
-	convert -resize 32x32 lib/images/logos/siduxedu.png siduxedu.xpm
-	convert -resize 16x16 lib/images/logos/siduxedu.png siduxedu-16.xpm
+	convert -resize 32x32 lib/images/logos/siduxedu.png siduxeduhand.xpm
+	convert -resize 16x16 lib/images/logos/siduxedu.png siduxeduhand-16.xpm
 	dh build --remaining
 
 clean:
 	dh clean --before clean
-	rm -f	siduxedu.xpm \
-		siduxedu-16.xpm
+	rm -f	siduxeduhand.xpm \
+		siduxeduhand-16.xpm
 	dh clean --remaining
 
