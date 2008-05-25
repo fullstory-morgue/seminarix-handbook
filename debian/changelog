@@ -1,3 +1,9 @@
+seminarix-handbook (0.2.5) UNRELEASED; urgency=low
+
+  * NOT RELEASED YET
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Sun, 25 May 2008 14:16:38 +0200
+
 seminarix-handbook (0.2.4) unstable; urgency=low
 
   * debian files index.html lib menu fixed sidux-edu/seminarix-handbook
