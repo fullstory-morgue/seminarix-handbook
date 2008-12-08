@@ -3,26 +3,31 @@ Section: doc
 Priority: extra
 Maintainer: Horst Tritremmel <hjt@sidux.com>
 Uploaders: Stefan Lippers-Hollmann <s.l-h@gmx.de>, Ferdinand Thommes <devil@sidux.com> 
-Build-Depends: debhelper (>= 7), imagemagick
+Build-Depends: debhelper (>= 7),
+               imagemagick
 Standards-Version: 3.8.0
 Vcs-Svn: svn://svn.berlios.de/fullstory/seminarix-handbook/trunk
 Vcs-Browser: http://svn.berlios.de/wsvn/fullstory/seminarix-handbook/trunk/
 
 Package: seminarix-handbook
 Architecture: all
-Depends: seminarix-handbook-common, seminarix-handbook-de, sidux-edu
+Depends: ${misc:Depends},
+         seminarix-handbook-common,
+         seminarix-handbook-de,
+         sidux-edu
 Description: sidux seminarix handbook for teachers
  Make things easier for teachers
 
 Package: seminarix-handbook-common
 Architecture: all
+Depends: ${misc:Depends}
 Description: sidux seminarix handbook - common files
  Make things easier for teachers - common files
 
 Package: seminarix-handbook-de
 Architecture: all
-Depends: seminarix-handbook-common
+Depends: ${misc:Depends},
+         seminarix-handbook-common
 Suggests: iceweasel | x-www-browser
 Description: the official German seminarix-handbook
  Make things easier for teachers - German files
-

@@ -1,8 +1,9 @@
 seminarix-handbook (0.2.7) UNRELEASED; urgency=low
 
   * NOT RELEASED YET
+  * make lintian happy and depend on ${misc:Depends}.
 
- -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Tue, 21 Oct 2008 20:58:47 +0200
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Mon, 08 Dec 2008 02:52:12 +0100
 
 seminarix-handbook (0.2.6) unstable; urgency=low
 
