@@ -1,8 +1,15 @@
-seminarix-handbook (0.2.8) UNRELEASED; urgency=low
+seminarix-handbook (0.2.8) unstable; urgency=low
 
-  * NOT RELEASED YET
+  [ Dinko Sabo ]
+  * removed dummy weblinks file, obsolete
+  * corrected handbook files.
+  * added ${misc:Depends}
+  * fixed lintian errors
 
- -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Mon, 08 Dec 2008 23:08:19 +0100
+  [ Stefan Lippers-Hollmann ]
+  * drop bogus depends on no longer existing package "sidux-edu".
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Fri, 13 Feb 2009 02:27:13 +0100
 
 seminarix-handbook (0.2.7) unstable; urgency=low
 

@@ -13,8 +13,7 @@ Package: seminarix-handbook
 Architecture: all
 Depends: ${misc:Depends},
          seminarix-handbook-common,
-         seminarix-handbook-de,
-         sidux-edu
+         seminarix-handbook-de
 Description: sidux seminarix handbook for teachers
  Make things easier for teachers
 
