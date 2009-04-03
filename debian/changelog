@@ -1,8 +1,9 @@
-seminarix-handbook (0.2.10) UNRELEASED; urgency=low
+seminarix-handbook (0.2.10) unstable; urgency=low
 
-  * NOT RELEASED YET
+  [ Dinko Sabo ]
+  * sync with berlios
 
- -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Fri, 20 Feb 2009 17:05:14 +0100
+ -- Dinko Sabo <cobra@sidux.com>  Sat, 21 Feb 2009 09:13:39 +0100
 
 seminarix-handbook (0.2.9) unstable; urgency=low
 
