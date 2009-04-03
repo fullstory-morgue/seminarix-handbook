@@ -3,7 +3,10 @@ seminarix-handbook (0.2.10) unstable; urgency=low
   [ Dinko Sabo ]
   * sync with berlios
 
- -- Dinko Sabo <cobra@sidux.com>  Sat, 21 Feb 2009 09:13:39 +0100
+  [ Stefan Lippers-Hollmann ]
+  * bump standards version to 3.8.1, no changes necessary.
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Sat, 04 Apr 2009 01:45:34 +0200
 
 seminarix-handbook (0.2.9) unstable; urgency=low
 
