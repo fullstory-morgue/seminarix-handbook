@@ -13,7 +13,8 @@ Package: seminarix-handbook
 Architecture: all
 Depends: ${misc:Depends},
          seminarix-handbook-common,
-         seminarix-handbook-de
+         seminarix-handbook-de,
+	 seminarix-handbook-en
 Description: sidux seminarix handbook for teachers
  Make things easier for teachers
 
@@ -30,3 +31,11 @@ Depends: ${misc:Depends},
 Suggests: iceweasel | x-www-browser
 Description: the official German seminarix-handbook
  Make things easier for teachers - German files
+
+Package: seminarix-handbook-en
+Architecture: all
+Depends: ${misc:Depends},
+         seminarix-handbook-common
+Suggests: iceweasel | x-www-browser
+Description: the official English seminarix-handbook
+ Make things easier for teachers - English files

@@ -1,8 +1,9 @@
-seminarix-handbook (0.2.11) UNRELEASED; urgency=low
+seminarix-handbook (0.2.11) unstable; urgency=low
 
-  * NOT RELEASED YET
+  [ Dinko Sabo ]
+  * started i18n thanks to bluewater and edhunter
 
- -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Sat, 04 Apr 2009 01:47:20 +0200
+ -- Dinko Sabo <cobra@sidux.com>  Sat, 18 Apr 2009 12:55:09 +0200
 
 seminarix-handbook (0.2.10) unstable; urgency=low
 

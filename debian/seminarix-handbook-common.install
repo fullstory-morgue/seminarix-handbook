@@ -1,3 +1,9 @@
-menu/seminarix-handbook.desktop	usr/share/applications/sidux
-siduxeduhand.xpm			usr/share/pixmaps/
-siduxeduhand-16.xpm			usr/share/pixmaps/
+*.html						usr/share/seminarix-handbook
+lib/css-js					usr/share/seminarix-handbook/lib
+lib/favicon					usr/share/seminarix-handbook/lib
+lib/logos					usr/share/seminarix-handbook/lib
+lib/images-common				usr/share/seminarix-handbook/lib
+menu/seminarix-handbook.desktop			usr/share/applications/sidux
+siduxeduhand.xpm				usr/share/pixmaps
+siduxeduhand-16.xpm				usr/share/pixmaps
+
