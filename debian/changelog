@@ -3,7 +3,10 @@ seminarix-handbook (0.2.11) unstable; urgency=low
   [ Dinko Sabo ]
   * started i18n thanks to bluewater and edhunter
 
- -- Dinko Sabo <cobra@sidux.com>  Sat, 18 Apr 2009 12:55:09 +0200
+  [ Stefan Lippers-Hollmann ]
+  * bump standards version to 3.8.3, no changes necessary.
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Fri, 23 Oct 2009 00:49:31 +0200
 
 seminarix-handbook (0.2.10) unstable; urgency=low
 
