@@ -1,19 +1,12 @@
-seminarix-handbook (0.2.12) UNRELEASED; urgency=low
-
-  * NOT RELEASED YET
-  * FTBS
-
- -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Fri, 23 Oct 2009 01:05:54 +0200
-
-seminarix-handbook (0.2.11) unstable; urgency=low
+seminarix-handbook (0.3.0) unstable; urgency=low
 
   [ Dinko Sabo ]
   * started i18n thanks to bluewater and edhunter
 
   [ Stefan Lippers-Hollmann ]
-  * bump standards version to 3.8.3, no changes necessary.
+  * fix up svn.
 
- -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Fri, 23 Oct 2009 00:49:31 +0200
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Sun, 25 Oct 2009 19:37:34 +0100
 
 seminarix-handbook (0.2.10) unstable; urgency=low
 

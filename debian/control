@@ -2,20 +2,19 @@ Source: seminarix-handbook
 Section: doc
 Priority: extra
 Maintainer: Horst Tritremmel <hjt@sidux.com>
-Uploaders: Stefan Lippers-Hollmann <s.l-h@gmx.de>,
- Ferdinand Thommes <devil@sidux.com> 
+Uploaders: Stefan Lippers-Hollmann <s.l-h@gmx.de>, Ferdinand Thommes <devil@sidux.com> 
 Build-Depends: debhelper (>= 7),
- imagemagick
-Standards-Version: 3.8.3
+               imagemagick
+Standards-Version: 3.8.1
 Vcs-Svn: svn://svn.berlios.de/fullstory/seminarix-handbook/trunk
 Vcs-Browser: http://svn.berlios.de/wsvn/fullstory/seminarix-handbook/trunk/
 
 Package: seminarix-handbook
 Architecture: all
 Depends: ${misc:Depends},
- seminarix-handbook-common,
- seminarix-handbook-de,
- seminarix-handbook-en
+         seminarix-handbook-common,
+         seminarix-handbook-de,
+	 seminarix-handbook-en
 Description: sidux seminarix handbook for teachers
  Make things easier for teachers
 
@@ -28,7 +27,7 @@ Description: sidux seminarix handbook - common files
 Package: seminarix-handbook-de
 Architecture: all
 Depends: ${misc:Depends},
- seminarix-handbook-common
+         seminarix-handbook-common
 Suggests: iceweasel | x-www-browser
 Description: the official German seminarix-handbook
  Make things easier for teachers - German files
@@ -36,7 +35,7 @@ Description: the official German seminarix-handbook
 Package: seminarix-handbook-en
 Architecture: all
 Depends: ${misc:Depends},
- seminarix-handbook-common
+         seminarix-handbook-common
 Suggests: iceweasel | x-www-browser
 Description: the official English seminarix-handbook
  Make things easier for teachers - English files
