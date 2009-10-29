@@ -1,8 +1,8 @@
-seminarix-handbook (0.3.1) UNRELEASED; urgency=low
+seminarix-handbook (0.3.1) unstable; urgency=low
 
-  * NOT RELEASED YET
+  * add new picture.
 
- -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Sun, 25 Oct 2009 19:41:30 +0100
+ -- Ferdinand Thommes <devil@sidux.com>  Wed, 28 Oct 2009 15:12:02 +0100
 
 seminarix-handbook (0.3.0) unstable; urgency=low
 
