@@ -1,10 +1,10 @@
 Source: seminarix-handbook
 Section: doc
 Priority: extra
-Maintainer: Horst Tritremmel <hjt@sidux.com>
+Maintainer: Dinko Sabo <cobra@sidux.com>
 Uploaders: Stefan Lippers-Hollmann <s.l-h@gmx.de>, Ferdinand Thommes <devil@sidux.com> 
 Build-Depends: debhelper (>= 7),
-               imagemagick
+ imagemagick
 Standards-Version: 3.8.1
 Vcs-Svn: svn://svn.berlios.de/fullstory/seminarix-handbook/trunk
 Vcs-Browser: http://svn.berlios.de/wsvn/fullstory/seminarix-handbook/trunk/
@@ -12,9 +12,9 @@ Vcs-Browser: http://svn.berlios.de/wsvn/fullstory/seminarix-handbook/trunk/
 Package: seminarix-handbook
 Architecture: all
 Depends: ${misc:Depends},
-         seminarix-handbook-common,
-         seminarix-handbook-de,
-	 seminarix-handbook-en
+ seminarix-handbook-common,
+ seminarix-handbook-de,
+ seminarix-handbook-en
 Description: sidux seminarix handbook for teachers
  Make things easier for teachers
 
