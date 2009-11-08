@@ -17,7 +17,7 @@
         <![endif]-->
 </head>
 <body>
-<!-- last translation revision by edhunter 05/04/2009 1350 utc-->
+<!-- last translation revision by bluewater 07/11/2009 0900 UTC-->
 <div id="menu"> <!-- menu starts here maintainer en edhunter -->
 <!--Welcome to the  sidux-manual  edu manual  00.05-2009-04-05 -->
 <!-- menu last updated by bluewater 08/04/2009 1000rs UTC -->
@@ -107,22 +107,22 @@
 			</ul>
 		</li>
 	</ul>
-<!-- menu ends here --> </div> <!-- menu ends here --> 
+<!-- menu ends here --> </div> <!-- menu ends here -->
 
 <div id="main-page">
 	<div class="divider" id="seminarix">
 
 <div class="screenshot"><img src="../lib/logos/seminarix_logo_hp.png" alt="seminarix_logo" /></div>
 
-							<p class="highlight-3">Seminarix is a Live-medium based on sidux, which is developed for the education of teachers</p>
+							<p class="highlight-3">Seminarix is a Live-medium based on sidux, which is developed for the education of teachers.</p>
 
 		<!--h1 id="top-header"> Informationen zur Benutzung von sidux-Seminarix</h1-->
 		<h1 id="top-header"> sidux-Seminarix usage information</h1>
 
-				<h3>The program starter</h3>
+				<h3>The program starter eduversum</h3>
 
 							<!--p>Durch Doppelklick auf das Programm-Icon oder Klick auf einen Startbutton wird das jeweilige Programm gestartet. Im Programmstarter sind auch Programme aufgef&uuml;hrt, die nicht auf dem Live-Medium enthalten sind (der Umfang der Live-Medien ist je nach Art auf  knapp 700 bzw. auf 2000 MB begrenzt). Dazu ist im Auswahlfenster oben rechts der Men&uuml;-Punkt "nicht installierte Programme" auszuw&auml;hlen. Bei vorhandener Internetanbindung ist es m&ouml;glich, auch nicht auf dem Live-Medium enthaltene, aber im Men&uuml;system aufgef&uuml;hrte Programme einfach zu installieren. Dies ist an der ge&auml;nderten Buttonbeschriftung ("Programm installieren" statt "Programm starten") erkennbar. Wird der entsprechende Button angeklickt, erscheint eine R&uuml;ckfrage, ob das entsprechende Programm nachinstalliert werden soll.</p-->
-							<p>Each program can be started with a double click on the program's icon or by clicking on the start button. There are programs listed in the program starter which are not contained on the live-medium (the size of a live-medium is limited to approx. 700 MB respectively 2000MB depending on the medium). For those you can select "only not installed" from the drop-down menu which is situated in the right corner above the selection window. With an Internet connection it is possible to easily install programs which are listed in the menu system but are not contained on the live-medium. You recognize those programs because they have no "Start" button and no tick in the box that is situated next to the program icon. Clicking the box and then the "show changes" button you can install the chosen programs or cancel by clicking on the respective buttons.</p>
+							<p>Each program can be started with a double click on the program's icon or by clicking on the start button. There are programs listed in the program starter which are not contained on the live-medium (the size of a live-medium is limited to approx. 700 MB respectively 2000MB depending on the medium). For those you can select "only not installed" from the drop-down menu which is situated in the right corner above the selection window. With an Internet connection it is possible to easily install programs which are listed in the menu system but are not contained on the live-medium. You recognise those programs because they have no "Start" button and no tick in the box that is situated next to the program icon. Clicking the box and then the "show changes" button you can install the chosen programs or cancel by clicking on the respective buttons.</p>
 
 							<!--p>In der Beschreibung zum jeweiligen Programm befindet sich i.d. Regel auch ein Link zur Homepage, auf der Sie weitere Informationen zum jeweiligen Programm finden.</p-->
 							<p>Usually you can find, in each program's description, a link to the home page of the program in which you can find further information about the program.</p>
@@ -140,25 +140,8 @@
 							<!--p>Mit sidux-Seminarix kann ein dauerhaftes (persistentes) Live-System auf einer beschreibbaren Partition (z.b. auf einem USB-Stick und selbst auf einer Festplatte) eingerichtet (ein ISO-Abbild) werden. Dazu werden die Bootoptionen 'fromiso' und 'persist' kombiniert genutzt. Die pers&#246;nlichen Daten werden in einem Unterverzeichnis der fromiso-Partition gespeichert. Die Vorgehensweise ist <a href="/usr/share/sidux-manual/en/hd-install-opts-en.htm#fromiso"> hier</a> sehr gut beschrieben.</p-->
 							<p>With sidux-Seminarix you can setup a permanent (persistent) live-system on a writable partition (for example on a USB-stick or hard disk)(an ISO copy). For that the boot options 'fromiso' and 'persist' are used. The persistent data is stored in a subdirectory of the fromiso partition. The procedure is very well explained <a href="/usr/share/sidux-manual/en/hd-install-opts-en.htm#fromiso"> here</a>.</p>
 
-							<!--p>Um beispielsweise völlig ohne Live-Medium arbeiten zu können, bietet sich das Erstellen eines <a href="/usr/share/sidux-manual/en/hd-install-opts-en.htm#usb-hd"> bootbaren sidux-USB-Stick</a> mit eigener Datenablage und selbstgewählter Softwareauswahl an.</p-->
-							<p>To for example be able to work completely with out a live-medium, you are offered the possibility to create a <a href="/usr/share/sidux-manual/en/hd-install-opts-en.htm#usb-hd"> boot-able sidux-USB-Stick</a> with its own data storage and a self chosen programs list.</p>
-
-							
-
-							<!--p>Die Nutzung der Bootoption 'persist' auf einem FAT-Dateisystem (vorformatiert auf den meisten USB-Sticks) erfordert eine große Datei, die als Loop-Ger&#228;t eingerichtet wird. Diese Datei muss formatiert werden (empfohlen ist ext3).</p-->
-							<p>The use of the 'persist' boot option on a FAT file system (most USB-Sticks are pre-formated with FAT), requires a big file which has to be setup as a loop device. This file has to be formated (ext3 is recommended).</p>
-
-
-							<!--p>Diese Datei soll sidux-rw benannt werden und im Root-Verzeichnis der FAT-Partition (des mit FAT formatierten USB-Sticks) platziert werden. Wenn die Partition zum Beispiel beschreibbar auf /media/sdb1 eingeh&#228;ngt ist und eine Datei mit 1GB Gr&#246;ße erstellt werden soll, um als dauerhaft genutzte Partition zu fungieren, werden folgende Befehle genutzt (es wird kein root ben&#246;tigt, wenn der User Schreibrechte hat):</p-->
-							<p>This file should be named sidux-rw and it should be placed in the root directory of the FAT partition (USB-Stick with FAT file system). If the partition is for example mounted and writable on /media/sdb1 and you want to create a 1GB file to use as your persistent drive you can use the following commands (no need for root if you can write to the file):</p>
-
-<pre>
-disc="/media/sdb1" size=1024 dd if=/dev/zero of=${disc}/sidux-rw bs=1M count=${size} &#038;&#038; echo 'y' | /sbin/mkfs.ext3 ${disc}/sidux-rw
-</pre>
-
-							<!--p class="highlight-2">NTFS-formatierte Partitionen (Standard f&#252;r Windows NT/2000/XP/Vista (TM)) k&#246;nnen NICHT mit der Bootoption 'persist' benutzt werden.</p--> 
-							<p class="highlight-2">NTFS partitions, commonly used for Windows NT/2000/XP/Vista (TM) installations, CANNOT be used for persistence.</p> 
-</div>
+							<!--p>Um beispielsweise v&ouml;llig ohne Live-Medium arbeiten zu k&ouml;nnen, bietet sich auch das Erstellen eines bootbaren sidux-USB-Stick mit eigener Datenablage und selbst gew&auml;hlter Softwareauswahl an. Auch daf&uuml;r haben wir wieder <a href="/usr/share/sidux-manual/de/hd-install-opts-de.htm#usb-hd"> eine gute Anleitung</a> erstellt.</p-->
+							<p>To for example be able to work completely with out a live-medium, you are offered the possibility to create a boot-able sidux-USB-Stick with its own data storage and a self chosen programs list. For this we have prepared a good <a href="/usr/share/sidux-manual/en/hd-install-opts-en.htm#usb-hd">tutorial</a></p>
 
 				<!--h3>Was leider auf der live-Medium keinen Platz fand</h3-->
 				<h3>What is not on the live-medium</h3>
@@ -167,43 +150,35 @@ disc="/media/sdb1" size=1024 dd if=/dev/zero of=${disc}/sidux-rw bs=1M count=${s
 							<p>Open-Source programs are constantly evolving and tend to always become more extensive. For these reasons and because of limited space we had to waive several packages which were included in the last version which was still based on Kubuntu 6:06. These are - as described above - easy to install with the program starter.</p>
 
 						<ul>
-							<li>Amarok</li>
+							<!--li>Amarok</li-->
 							<li>blinKen</li>
 							<li>Celestia</li>
 							<li>Einstein Puzzle</li>
 							<li>Gambas</li>
-							<li>Gimp</li>
+							<!--li>Gimp</li-->
 							<li>Glame</li>
-							<li>gTrans</li>
+							<li>gTans</li>
 							<li>KAnagram</li>
 							<li>KDissert</li>
 							<li>KHangman</li>
 							<li>Kiten</li>
 							<li>Kletters</li>
 							<li>KTechlab</li>
-							<li>KVerbos</li>
-							<li>KView</li>
-							<li>Lazerus</li>
-							<li>Linux Letters and Numbers</li>
+							<li>Lazarus</li>
+							<li>Linux Letters and Numbers (lletters</li>
 							<li>Lmemory</li>
 							<li>Octave</li>
-							<li>OpenOffice.org</li>
+							<!--li>OpenOffice.org</li-->
 							<li>PCB</li>
 							<li>Pingus</li>
 							<li>qcad</li>
-							<li>QGis</li>
-							<li>RKWard</li>	
+							<li>RKWard</li>
 							<li>Tipptrainer</li>
 							<li>TuxType</li>
-							<li>Weltzeituhr</li>
 							<li>Xoscope</li>
-							<!--<li><span class="highlight-2">NVU</span></li>-->
 						</ul>
 
-							<!--p>NVU wurde durch Quanta ersetzt, da NVU nicht in Debian enthalten ist. Die Einarbeitung in Quanta erfordert zwar anfangs einen etwas h&#246;heren Lernaufwand, daf&#252;r hat man dann aber ein weitaus leistungsf&#228;higeres Werkzeug zur Verf&#252;gung, welches außerdem wesentlich sauberere Webseiten generiert.</p-->
-							<!-- this is not needed at all <p>NVU was replaced by Quanta because NVU is not contained in Debian. The familiarization with Quanta requires, initially, a slightly higher learning curve, but then one has a very powerful tool available, which generates considerably clean web-pages.</p>-->
 
-	
 				<!--h3>Mitwirkende des sidux-Seminarix-Projektes:</h3-->
 				<h3>Contributors to the sidux-Seminarix Project:</h3>
 
@@ -233,7 +208,7 @@ Trevor Walkley (bluewater): en<br />
 							<!--p>Weitere Informationen zur Installation von sidux-Seminarix finden Sie in den Manual-Pages von sidux:</p-->
 							<p>More information about the installation of sidux-seminarix can be found in the pages of the sidux manual:</p>
 
-							<p>sidux-Manual <a href="/usr/share/sidux-manual/de/welcome-de.htm" > German</a> or 
+							<p>sidux-Manual <a href="/usr/share/sidux-manual/de/welcome-de.htm" > German</a> or
 							<a href="/usr/share/sidux-manual/en/welcome-en.htm" > English</a> and sidux-Wiki <a href="http://sidux.com/index.php?module=Wikula&#038;tag=Startseite"  > German</a> or
 							<a href="http://sidux.com/module-Wikula.html" > English</a></p>
 
@@ -241,11 +216,11 @@ Trevor Walkley (bluewater): en<br />
 <!--Fusszeile-->
 			<div class="box">
 				<div class="center">
-							<p>Should you want to contact the people in charge for this project, please email us.<br /> For non-technical questions <b>Email</b> <a href="mailto:info@seminarix.org">info@seminarix.org</a>,<br /> 
+							<p>Should you want to contact the people in charge for this project, please email us.<br /> For non-technical questions <b>Email</b> <a href="mailto:info@seminarix.org">info@seminarix.org</a>,<br />
 							For technical questions  <b>Email</b> <a href="mailto:edu@sidux-ev.de">edu@sidux-ev.de</a></p>
 				</div>
 	</div>
-			<div id="rev"> Content last revised 18/10/2009 1800 UTC</div>
+			<div id="rev"> Content last revised 07/11/2009 0250 UTC</div>
 
 </div>
 </body>
