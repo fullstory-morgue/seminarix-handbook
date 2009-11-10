@@ -1,13 +1,13 @@
-seminarix-handbook (0.3.4) UNRELEASED; urgency=low
-
-  [ Stefan Lippers-Hollmann ]
-  * NOT RELEASED YET
+seminarix-handbook (0.3.4) unstable; urgency=low
 
   [ Ferdinand Thommes ]
   * de debian en es files flag-index.html index.html lib menu pt-br some
     fixes in the DE translation
 
- -- Ferdinand Thommes <devil@sidux.com>  Tue, 10 Nov 2009 16:23:43 +0100
+  [ Stefan Lippers-Hollmann ]
+  * bump standards version to 3.8.3, no changes necessary.
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Wed, 11 Nov 2009 00:17:19 +0100
 
 seminarix-handbook (0.3.3) unstable; urgency=low
 
