@@ -1,8 +1,10 @@
-seminarix-handbook (0.3.5) UNRELEASED; urgency=low
+seminarix-handbook (0.3.5) unstable; urgency=low
 
-  * NOT RELEASED YET
+  * switch to dpkg-source 3.0 (native) format.
+  * bump standards version to 3.8.4, no changes necessary.
+  * compact packaging.
 
- -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Wed, 11 Nov 2009 00:18:26 +0100
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Mon, 26 Apr 2010 00:30:17 +0200
 
 seminarix-handbook (0.3.4) unstable; urgency=low
 

@@ -3,15 +3,12 @@
 %:
 	dh $@
 
-build:
-	dh build --until auto_build
+override_dh_auto_build:
 	convert -resize 32x32 lib/logos/siduxedu.png siduxeduhand.xpm
 	convert -resize 16x16 lib/logos/siduxedu.png siduxeduhand-16.xpm
-	dh build --remaining
+	dh_auto_build
 
-clean:
-	dh clean --before clean
+override_dh_auto_clean:
 	rm -f	siduxeduhand.xpm \
 		siduxeduhand-16.xpm
-	dh clean --remaining
-
+	dh_auto_clean
