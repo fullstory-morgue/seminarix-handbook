@@ -1,3 +1,9 @@
+seminarix-handbook (0.3.6) UNRELEASED; urgency=low
+
+  * NOT RELEASED YET
+
+ -- Stefan Lippers-Hollmann <s.l-h@gmx.de>  Mon, 26 Apr 2010 00:33:26 +0200
+
 seminarix-handbook (0.3.5) unstable; urgency=low
 
   * switch to dpkg-source 3.0 (native) format.
