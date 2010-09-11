@@ -16,8 +16,10 @@ Depends: ${misc:Depends},
  seminarix-handbook-common,
  seminarix-handbook-de,
  seminarix-handbook-en
-Description: sidux seminarix handbook for teachers
+Description: seminarix handbook for teachers
  Make things easier for teachers
+ .
+ meta-package to pull in all languages.
 
 Package: seminarix-handbook-common
 Architecture: all
