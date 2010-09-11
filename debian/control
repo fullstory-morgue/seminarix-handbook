@@ -6,7 +6,7 @@ Uploaders: Stefan Lippers-Hollmann <s.l-h@gmx.de>,
  Ferdinand Thommes <devil@sidux.com> 
 Build-Depends: debhelper (>= 7),
  imagemagick
-Standards-Version: 3.8.4
+Standards-Version: 3.9.1
 Vcs-Svn: svn://svn.berlios.de/fullstory/seminarix-handbook/trunk
 Vcs-Browser: http://svn.berlios.de/wsvn/fullstory/seminarix-handbook/trunk/
 
