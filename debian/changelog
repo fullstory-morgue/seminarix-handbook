@@ -99,7 +99,7 @@ seminarix-handbook (0.2.7) unstable; urgency=low
 
 seminarix-handbook (0.2.6) unstable; urgency=low
 
-  * added dummy weblinks file, to fit new sidux-edu weblinks function.file 
+  * added dummy weblinks file, to fit new sidux-edu weblinks function.file
     will be filled later with content.
 
  -- Dinko Sabo <cobra@sidux.com>  Fri, 17 Oct 2008 04:34:18 +0200
