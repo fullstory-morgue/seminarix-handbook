@@ -1,7 +1,7 @@
 [Desktop Entry]
 Type=Application
 Exec=x-www-browser /usr/share/seminarix-handbook/index.html
-Icon=siduxedu
+Icon=aptosidedu
 Name=seminarix manual
 Name[de]=Seminarix Handbuch
 Name[en]=Seminarix Manual

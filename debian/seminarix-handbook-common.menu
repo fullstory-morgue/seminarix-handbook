@@ -1,8 +1,8 @@
 ?package(seminarix-handbook-common): \
 	needs="X11" \
 	section="Help" \
-	hints="sidux" \
+	hints="aptosid" \
 	title="seminarix handbook" \
-	icon32x32="/usr/share/pixmaps/siduxeduhand.xpm" \
-	icon16x16="/usr/share/pixmaps/siduxeduhand-16.xpm" \
+	icon32x32="/usr/share/pixmaps/aptosideduhand.xpm" \
+	icon16x16="/usr/share/pixmaps/aptosideduhand-16.xpm" \
 	command="x-www-browser /usr/share/seminarix-handbook/index.html"

@@ -1,13 +1,13 @@
 <div id="menu"> <!-- menu starts here maintainer en edhunter -->
-<!--Welcome to the  sidux-manual  edu manual  00.04-2007-12-12 -->
+<!--Welcome to the  aptosid-manual  edu manual  00.04-2007-12-12 -->
 <!-- menu last updated by bluewater 115/12/2007 0100rs AEDST 114/12/2007 1400hrs UTC -->
-<img src="../lib/images/logos/sidux_logo.png" alt="logo" id="menu-header" />
+<img src="../lib/images/logos/aptosid_logo.png" alt="logo" id="menu-header" />
 	<ul id="top-list">
-		<li><a href="http://sidux.com/">To sidux.com</a></li>
-		<li><a href="http://manual.sidux.com/">sidux OS Manual</a></li>
+		<li><a href="http://aptosid.com/">To aptosid.com</a></li>
+		<li><a href="http://manual.aptosid.com/">aptosid OS Manual</a></li>
 	</ul>
 	<div id="flags-3">
-			<img src="../lib/images/logos/siduxedu.png" title="sem" alt="semi-logo" />
+			<img src="../lib/images/logos/aptosidedu.png" title="sem" alt="semi-logo" />
 	</div>
 	<ul>
 		<li  onmouseover="showHide( 1 );" onmouseout="startTime();" ><a href="willkommen-es.html"> Project Seminarix</a>

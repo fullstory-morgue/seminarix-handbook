@@ -24,7 +24,7 @@ Description: seminarix handbook for teachers
 Package: seminarix-handbook-common
 Architecture: all
 Depends: ${misc:Depends}
-Description: sidux seminarix handbook - common files
+Description: aptosid seminarix handbook - common files
  Make things easier for teachers, an overview of seminarix
  Introducing useful programs and teaching methods, sorted by subjects.
  .

@@ -3,7 +3,7 @@ lib/css-js					usr/share/seminarix-handbook/lib
 lib/favicon					usr/share/seminarix-handbook/lib
 lib/logos					usr/share/seminarix-handbook/lib
 lib/images-common				usr/share/seminarix-handbook/lib
-menu/seminarix-handbook.desktop			usr/share/applications/sidux
-siduxeduhand.xpm				usr/share/pixmaps
-siduxeduhand-16.xpm				usr/share/pixmaps
+menu/seminarix-handbook.desktop			usr/share/applications/aptosid
+aptosideduhand.xpm				usr/share/pixmaps
+aptosideduhand-16.xpm				usr/share/pixmaps
 

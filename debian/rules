@@ -4,11 +4,11 @@
 	dh $@
 
 override_dh_auto_build:
-	convert -resize 32x32 lib/logos/siduxedu.png siduxeduhand.xpm
-	convert -resize 16x16 lib/logos/siduxedu.png siduxeduhand-16.xpm
+	convert -resize 32x32 lib/logos/aptosidedu.png aptosideduhand.xpm
+	convert -resize 16x16 lib/logos/aptosidedu.png aptosideduhand-16.xpm
 	dh_auto_build
 
 override_dh_auto_clean:
-	rm -f	siduxeduhand.xpm \
-		siduxeduhand-16.xpm
+	rm -f	aptosideduhand.xpm \
+		aptosideduhand-16.xpm
 	dh_auto_clean
