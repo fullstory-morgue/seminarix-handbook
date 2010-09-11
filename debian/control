@@ -13,32 +13,37 @@ Vcs-Browser: http://svn.berlios.de/wsvn/fullstory/seminarix-handbook/trunk/
 Package: seminarix-handbook
 Architecture: all
 Depends: ${misc:Depends},
- seminarix-handbook-common,
  seminarix-handbook-de,
  seminarix-handbook-en
 Description: seminarix handbook for teachers
  Make things easier for teachers
  .
- meta-package to pull in all languages.
+ metapackage to pull in all languages.
 
 Package: seminarix-handbook-common
 Architecture: all
 Depends: ${misc:Depends}
 Description: sidux seminarix handbook - common files
- Make things easier for teachers - common files
+ Make things easier for teachers
+ .
+ This package contains the common css, image and html index files.
 
 Package: seminarix-handbook-de
 Architecture: all
 Depends: ${misc:Depends},
-         seminarix-handbook-common
+ seminarix-handbook-common
 Suggests: iceweasel | x-www-browser
 Description: the official German seminarix-handbook
- Make things easier for teachers - German files
+ Make things easier for teachers
+ .
+ German language version.
 
 Package: seminarix-handbook-en
 Architecture: all
 Depends: ${misc:Depends},
-         seminarix-handbook-common
+ seminarix-handbook-common
 Suggests: iceweasel | x-www-browser
 Description: the official English seminarix-handbook
- Make things easier for teachers - English files
+ Make things easier for teachers
+ .
+ English language version.
