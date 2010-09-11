@@ -24,7 +24,8 @@ Package: seminarix-handbook-common
 Architecture: all
 Depends: ${misc:Depends}
 Description: sidux seminarix handbook - common files
- Make things easier for teachers
+ Make things easier for teachers, an overview of seminarix
+ Introducing useful programs and teaching methods, sorted by subjects.
  .
  This package contains the common css, image and html index files.
 
@@ -33,8 +34,9 @@ Architecture: all
 Depends: ${misc:Depends},
  seminarix-handbook-common
 Suggests: iceweasel | x-www-browser
-Description: the official German seminarix-handbook
- Make things easier for teachers
+Description: the official German seminarix-handbook (de)
+ Make things easier for teachers, an overview of seminarix
+ Introducing useful programs and teaching methods, sorted by subjects.
  .
  German language version.
 
@@ -43,7 +45,8 @@ Architecture: all
 Depends: ${misc:Depends},
  seminarix-handbook-common
 Suggests: iceweasel | x-www-browser
-Description: the official English seminarix-handbook
- Make things easier for teachers
+Description: the official English seminarix-handbook (en)
+ Make things easier for teachers, an overview of seminarix
+ Introducing useful programs and teaching methods, sorted by subjects.
  .
  English language version.
