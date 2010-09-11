@@ -16,7 +16,8 @@ Depends: ${misc:Depends},
  seminarix-handbook-de,
  seminarix-handbook-en
 Description: seminarix handbook for teachers
- Make things easier for teachers
+ Make things easier for teachers, an overview of seminarix
+ Introducing useful programs and teaching methods, sorted by subjects.
  .
  metapackage to pull in all languages.
 
